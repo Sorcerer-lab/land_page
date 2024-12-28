@@ -4,7 +4,7 @@ body{
     display:flex;
     flex-direction: column;
     margin:0;
-    
+    background-color: hsla(76, 69%, 75%, 0.842)
 }
 
 
@@ -120,4 +120,40 @@ body{
         font-weight: 600;
         color: grey;
         text-align: center;
+    }
+    .offer{
+         background-color: hsla(76, 69%, 75%, 0.842);
+         padding:20px;
+         padding-inline: 40px;
+         margin:auto;
+         margin-top: 50px;
+         margin-bottom: 50px;
+        width:800px;
+        background-color:rgb(5, 41, 5) ;
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20 px;
+        
+    }
+    .offer .off{
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+        gap:12px;
+    }
+    .offer .off .h{
+        font-size: 22px;
+        font-weight: 900;
+    }
+    .offer .off .hh{
+        font-size:18px;
+    }
+    .offer button{
+        background-color: transparent;
+        border: 2px solid whitesmoke;
+        font-size: 23px;
+        flex:none;
+        border-radius: 12px;
+        color:whitesmoke;
     }
