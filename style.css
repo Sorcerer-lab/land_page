@@ -101,3 +101,17 @@ body{
      font-style: italic;
      margin: auto;
     }
+    .review{
+        box-sizing: border-box;
+        background-color:  rgb(5, 41, 5);
+        padding:50px;
+        box-shadow: inset 4px 2px 4px 2px  green;
+        font-size: 16px;
+        color: green;
+    }
+    .review .text{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        color: grey;
+    }
