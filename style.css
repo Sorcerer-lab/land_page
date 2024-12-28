@@ -104,14 +104,19 @@ body{
     .review{
         box-sizing: border-box;
         background-color:  rgb(5, 41, 5);
-        padding:50px;
+        padding:80px;
         box-shadow: inset 4px 2px 4px 2px  green;
-        font-size: 16px;
-        color: green;
+        font-size: 18px;
+        font-weight: 500;
+        color: whitesmoke;
+        text-align: right;
+        
+
     }
     .review .text{
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
         color: grey;
+        text-align: center;
     }
