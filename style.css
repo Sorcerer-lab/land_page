@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    
+}
+
+
+.header{
+    display: flex;
+
+}
+.links button, .l button{
+    background-color: green;
+    color: white;
+}
+.links button:hover{
+    background-color: yellowgreen;
+}
+.l button:hover {
+    background-color: yellowgreen;
+}
+.logo{
+    font-size:36px;
+    font-weight: bolder;
+    color: yellowgreen;
+    font-style: italic;
+}
+.header,.intro{
+    background-color: rgb(5, 41, 5);
+}
+.intro{
+    display:flex;
+    justify-content: space-between;
+}
+.l{
+    color:white;
+     width: 460px;
+     flex :none;
+     padding:25px;
+}
+.l button{
+    font-size: 30px;
+    box-shadow: 0 0 3px 3px rgb(9, 97, 9);
+    border-radius: 5px;
+    border-color: green;
+}
+
+.header{
+    height:60px;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links button{
+    font-style: italic;
+    font-size: 26px;
+    border-radius: 16px;
+    border-color: 2px solid green;
+    flex:none;
+}
+.links{
+    display: flex;
+    gap:9px;
+}
+.r{
+    padding:16px;
+    margin-right: 70px;
+}
+.content{
+    display:flex;
+    flex-direction: row;
+    
+    gap:5px;
+    justify-content:  space-evenly;
+    flex-wrap: wrap;
+    padding:10px;
+    background-color: hsla(76, 69%, 75%, 0.842);
+   
+}
+.content .i{
+    width:350px;
+    flex:none;
+   
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    
+}
+
+.content .i .text{
+     font-size: 22px;
+     font-weight: 500;
+     text-align: center;
+     width:330px;
+     flex:none;
+     display: block;
+     font-style: italic;
+     margin: auto;
+    }
