@@ -104,7 +104,8 @@ body{
     .review{
         box-sizing: border-box;
         background-color:  rgb(5, 41, 5);
-        padding:80px;
+        padding:60px;
+        padding-inline: 150px;
         box-shadow: inset 4px 2px 4px 2px  green;
         font-size: 18px;
         font-weight: 500;
