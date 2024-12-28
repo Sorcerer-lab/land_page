@@ -159,6 +159,10 @@ body{
         color:whitesmoke;
         
     }
+    .offer button:hover{
+        color:yellowgreen;
+        border-style: hidden;
+    }
     .footer{
         background-color: lightslategray;
         text-align: center;
