@@ -133,6 +133,7 @@ body{
         color: whitesmoke;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         border-radius: 20 px;
         
     }
@@ -156,4 +157,9 @@ body{
         flex:none;
         border-radius: 12px;
         color:whitesmoke;
+        
+    }
+    .footer{
+        background-color: lightslategray;
+        text-align: center;
     }
